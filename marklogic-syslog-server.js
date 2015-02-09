@@ -155,7 +155,7 @@ server.on("message", function (msg, rinfo) {
   ];
 
   // TODO: Parameterize whitelist at the command line
-  var senderWhitelist = ['MarkLogic', 'node'];
+  var senderWhitelist = ['MarkLogic', 'node', 'Other'];
   
   var whitelisted = senderWhitelist.some(function(sender) {
     return buff.indexOf(msg, sender + '[') > 0;
