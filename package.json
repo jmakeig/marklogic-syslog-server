@@ -5,6 +5,7 @@
   "main": "marklogic-syslog-server.js",
   "repository": "git://github.com/jmakeig/marklogic-syslog-server.git",
   "scripts": {
+    "start": "node ./marklogic-syslog-server.js 5140",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Justin Makeig <jmpublic+github@makeig.com>",
